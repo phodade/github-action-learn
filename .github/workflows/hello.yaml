@@ -3,10 +3,10 @@ name: Learn basic of GitHub Action
 on:
   push:
     branches:
-      -  master
+      -  main
 
 jobs:
-  helloworld:
+  build:
     runs-on: ubuntu-latest
 
     steps:
